@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @person.name %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @person.location %>
+</p>
+
+<p>
+  <strong>Species:</strong>
+  <%= @person.species %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @person.gender %>
+</p>
+
+<p>
+  <strong>Affiliations:</strong>
+  <%= @person.affiliations %>
+</p>
+
+<p>
+  <strong>Weapon:</strong>
+  <%= @person.weapon %>
+</p>
+
+<p>
+  <strong>Vehicle:</strong>
+  <%= @person.vehicle %>
+</p>
+
+<%= link_to 'Edit', edit_person_path(@person) %> |
+<%= link_to 'Back', people_path %>
